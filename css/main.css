@@ -19,6 +19,16 @@ a{
 	text-decoration: none;
 }
 
+.main-info-footer {
+	margin-left: 76px;
+	margin-right: 235px;
+	display: flex;
+	justify-content: flex-start;
+} 
+
+.main-info-footer a{
+	margin-right: 327px;
+}
 .main-navigation{
 	font-family: Montserrat;
 	font-size: 16px;
@@ -29,11 +39,23 @@ a{
 	letter-spacing: normal;
 	text-align: left;
 	color: #5b5b5b;
+
+	margin-left: 76px;
+	margin-right: 235px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .site-navigation  {
 	list-style: none;
+	display: flex;
+	justify-content: space-between;
 }
+
+.site-navigation li {
+	padding-left: 150px;
+}
+
 .site-navigation a {
 	color: #5b5b5b;
 }
@@ -47,7 +69,10 @@ a{
 }
 
 .right-nav-socials {
-  list-style: none;
+	list-style: none;
+	position: fixed;
+	top: 77px;
+	right: 67px;
 	
   font-family: Montserrat;
   font-size: 18px;
@@ -58,6 +83,12 @@ a{
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+}
+
+.right-nav-downarrow {
+	position: fixed;
+	bottom: 90px;
+	right: 47px;
 }
 
 .right-nav-socials a{
@@ -77,7 +108,7 @@ a{
 }
 .main-info-heading {
   width: 503px;
-  height: 176px;
+  height: 135px;
   font-family: Montserrat;
   font-size: 72px;
   font-weight: 600;
@@ -94,6 +125,12 @@ a{
 	display: none;
 }
 
+.main-info {
+	position: relative;
+	top: 175px;
+	left: 975px;
+}
+
 .main-info-description {
 	width: 358px;
   height: 74px;
@@ -108,8 +145,16 @@ a{
   color: #5b5b5b;
 }
 
+
+
 .main-partners-list{
 	list-style: none;
+	margin-top: 193px;
+	margin-left: 906px;
+	margin-right: 235px;
+	display: flex;
+	justify-content: space-between;
+	width:739px;
 }
 
 .main-info-footer{
