@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Кнопка_Вниз_" data-name="Кнопка &quot;Вниз&quot;" transform="translate(-1783 -930)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1783 930)" fill="none" stroke="#777" stroke-width="1">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.5" fill="none"/>
+    </g>
+    <path id="Path_11" data-name="Path 11" d="M1797.115,949.135l8.594,8.594,8.594-8.594" transform="translate(2 3)" fill="none" stroke="#777" stroke-width="1"/>
+  </g>
+</svg>

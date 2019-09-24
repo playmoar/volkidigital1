@@ -1,0 +1,134 @@
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family:'Montserrat Regular', sans-serif;
+	font-size: 20px;
+	line-height: 42px;
+	color: #b1b1b1;
+}
+
+.s1 {
+	background-color: #000000;
+	background-image: url("../img/bgstars.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main-navigation{
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.19;
+	letter-spacing: normal;
+	text-align: left;
+	color: #5b5b5b;
+}
+
+.site-navigation  {
+	list-style: none;
+}
+.site-navigation a {
+	color: #5b5b5b;
+}
+
+.site-navigation a:hover {
+	color:white;
+}
+
+.site-navigation a:focus{
+	color:white;
+}
+
+.right-nav-socials {
+  list-style: none;
+	
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.right-nav-socials a{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 3.67;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	}
+
+.right-nav-socials a:hover{
+	color: #9A9A9A;
+}
+.main-info-heading {
+  width: 503px;
+  height: 176px;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+
+}
+
+.visually-hidden{
+	display: none;
+}
+
+.main-info-description {
+	width: 358px;
+  height: 74px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5b5b5b;
+}
+
+.main-partners-list{
+	list-style: none;
+}
+
+.main-info-footer{
+	font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5b5b5b;
+}
+
+.main-info-footer a{
+	color:#5b5b5b;
+	text-decoration: none;
+}
+
+.main-info-footer a:hover{
+	color:white;
+}
