@@ -1,3 +1,7 @@
+*, *::before, *:after {
+	box-sizing: border-box;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -7,29 +11,30 @@ body {
 	line-height: 42px;
 	color: #b1b1b1;
 }
-
+.main-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
 .s1 {
+	height: 100vh;
+	min-height: 600px;
 	background-color: #000000;
 	background-image: url("../img/bgstars.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 }
 
+
 a{
 	text-decoration: none;
 }
 
-.main-info-footer {
-	margin-left: 76px;
-	margin-right: 235px;
-	display: flex;
-	justify-content: flex-start;
-} 
 
-.main-info-footer a{
-	margin-right: 327px;
-}
 .main-navigation{
+	border: 2px solid red;
 	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 500;
@@ -40,21 +45,19 @@ a{
 	text-align: left;
 	color: #5b5b5b;
 
-	margin-left: 76px;
-	margin-right: 235px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	width: 90%;
 }
 
-.site-navigation  {
+
+.site-navigation {
+	width: 40%;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
 }
 
-.site-navigation li {
-	padding-left: 150px;
-}
 
 .site-navigation a {
 	color: #5b5b5b;
@@ -70,10 +73,6 @@ a{
 
 .right-nav-socials {
 	list-style: none;
-	position: fixed;
-	top: 77px;
-	right: 67px;
-	
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
@@ -86,9 +85,7 @@ a{
 }
 
 .right-nav-downarrow {
-	position: fixed;
-	bottom: 90px;
-	right: 47px;
+
 }
 
 .right-nav-socials a{
@@ -107,8 +104,6 @@ a{
 	color: #9A9A9A;
 }
 .main-info-heading {
-  width: 503px;
-  height: 135px;
   font-family: Montserrat;
   font-size: 72px;
   font-weight: 600;
@@ -126,14 +121,10 @@ a{
 }
 
 .main-info {
-	position: relative;
-	top: 175px;
-	left: 975px;
+
 }
 
 .main-info-description {
-	width: 358px;
-  height: 74px;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 500;
@@ -149,12 +140,6 @@ a{
 
 .main-partners-list{
 	list-style: none;
-	margin-top: 193px;
-	margin-left: 906px;
-	margin-right: 235px;
-	display: flex;
-	justify-content: space-between;
-	width:739px;
 }
 
 .main-info-footer{
