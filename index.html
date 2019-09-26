@@ -43,6 +43,13 @@
 				
 				</section>
 
+				
+				
+			</main>
+			 <footer class="main-info-footer">
+					<a href="tel:+77771223312" class="phone">+7 777 122 33 12</a>
+					<a href="mailto:volki@dgtl.com" class="mail">volki@dgtl.com</a>
+				</footer>
 				<aside class="right-nav">
 					<ul class="right-nav-socials">
 						<li><a href="#fb">FB</a></li>
@@ -52,13 +59,6 @@
 					
 				</aside>
 				<div class="right-nav-downarrow"><a href="#portfolio"><img src="img/downarrow.svg" alt="Перейти к портфолио"></a></div>
-				
-			</main>
-			 <footer class="main-info-footer">
-					<a href="tel:+77771223312" class="phone">+7 777 122 33 12</a>
-					<a href="mailto:volki@dgtl.com" class="mail">volki@dgtl.com</a>
-				</footer>
-
 				
 		</div>
 		
@@ -92,7 +92,11 @@
 	<script>
 	
 		new fullpage('#fullPage', {
-			autoScrolling: true
+			autoScrolling: true,
+			navigation: true,
+			anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+			navigationTooltips: ['01/02', '02/03'],
+			showActiveTooltip: true
 		})
 
 	</script>
