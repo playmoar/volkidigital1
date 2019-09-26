@@ -95,12 +95,10 @@ a{
   line-height: 3.67;
   letter-spacing: normal;
   text-align: left;
-  color: #ffffff;
+	color: #ffffff;
+	
 }
 
-.right-nav-downarrow {
-
-}
 
 .right-nav-socials a{
 	font-family: Montserrat;
@@ -112,10 +110,19 @@ a{
 	letter-spacing: normal;
 	text-align: left;
 	color: #ffffff;
+	top: 10%;
 	}
 
 .right-nav-socials a:hover{
 	color: #9A9A9A;
+}
+
+.right-nav{
+	position: fixed;
+	top: 9.5%;
+	right: 5%;
+
+	display: inline-block;
 }
 .main-info-heading {
   font-family: Montserrat;
@@ -138,7 +145,6 @@ a{
 }
 
 .container {
-	border: 2px solid red;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -153,6 +159,7 @@ a{
 	align-items: flex-start;
 	align-self: flex-end;
 	width: 50%;
+	flex: 8;
 	
 }
 
@@ -182,12 +189,12 @@ a{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
-	width: 85%;
+	width: 80%;
 	padding:0;
 }
 
 .main-partners-list img{
-	width: 120px;
+	width: 95%;
 }
 
 .main-info-footer{
@@ -199,9 +206,13 @@ a{
   line-height: 1.2;
   letter-spacing: normal;
   text-align: left;
-  color: #5b5b5b;
+	color: #5b5b5b;
+	padding-left: 5%;
 }
 
+.phone {
+	padding-right: 10%;
+}
 .main-info-footer a{
 	color:#5b5b5b;
 	text-decoration: none;
@@ -209,4 +220,11 @@ a{
 
 .main-info-footer a:hover{
 	color:white;
+}
+
+.right-nav-downarrow{
+	position: fixed;
+	display: flex;
+	bottom: 7vh;
+	right: 5%;
 }
